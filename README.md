@@ -206,21 +206,21 @@ This code is Apache 2.0, and our model weights use a modified OpenRAIL-M license
 
 # Benchmark table
 
-| **Model**                 |  ArXiv   | Old Scans Math |  Tables  | Old Scans | Headers and Footers | Multi column | Long tiny text | Base |    Overall     | Source |
-|:--------------------------|:--------:|:--------------:|:--------:|:---------:|:-------------------:|:------------:|:--------------:|:----:|:--------------:|:------:|
-| Datalab API               | **90.4** | **90.2** | **90.7** | **54.6** |        91.6         |     83.7     |    **92.3**    | **99.9** | **86.7 ± 0.8** | Own benchmarks |
-| Chandra 2                 |   90.2   |   89.3   |   89.9   |   49.8   |        92.5         |     83.5     |      92.1      | 99.6 |   85.9 ± 0.8   | Own benchmarks |
-| dots.ocr 1.5              |   85.9   |   85.5   | **90.7** |   48.2   |        94.0         |   **85.3**   |      81.6      | 99.7 |   83.9         | dots.ocr repo |
-| Chandra 1                 |   82.2   |   80.3   |   88.0   |   50.4   |        90.8         |     81.2     |    **92.3**    | **99.9** |   83.1 ± 0.9   | Own benchmarks |
-| olmOCR 2                  |   83.0   |   82.3   |   84.9   |   47.7   |      **96.1**       |     83.7     |      81.9      | 99.6 |   82.4         | olmocr repo |
-| dots.ocr                  |   82.1   |   64.2   |   88.3   |   40.9   |        94.1         |     82.4     |      81.2      | 99.5 |   79.1 ± 1.0   | dots.ocr repo |
-| olmOCR v0.3.0             |   78.6   |   79.9   |   72.9   |   43.9   |        95.1         |     77.3     |      81.2      | 98.9 |   78.5 ± 1.1   | olmocr repo |
-| Datalab Marker v1.10.0    |   83.8   |   69.7   |   74.8   |   32.3   |        86.6         |     79.4     |      85.7      | 99.6 |   76.5 ± 1.0   | Own benchmarks |
-| Deepseek OCR              |   75.2   |   72.3   |   79.7   |   33.3   |      **96.1**       |     66.7     |      80.1      | 99.7 |   75.4 ± 1.0   | Own benchmarks |
-| Mistral OCR API           |   77.2   |   67.5   |   60.6   |   29.3   |        93.6         |     71.3     |      77.1      | 99.4 |   72.0 ± 1.1   | olmocr repo |
-| GPT-4o (Anchored)         |   53.5   |   74.5   |   70.0   |   40.7   |        93.8         |     69.3     |      60.6      | 96.8 |   69.9 ± 1.1   | olmocr repo |
-| Qwen 3 VL 8B              |   70.2   |   75.1   |   45.6   |   37.5   |        89.1         |     62.1     |      43.0      | 94.3 |   64.6 ± 1.1   | Own benchmarks |
-| Gemini Flash 2 (Anchored) |   54.5   |   56.1   |   72.1   |   34.2   |        64.7         |     61.5     |      71.5      | 95.6 |   63.8 ± 1.2   | olmocr repo |
+| **Model**                 |  ArXiv   | Old Scans Math |  Tables  | Old Scans | Headers and Footers | Multi column | Long tiny text |   Base   |    Overall     |     Source     |
+|:--------------------------|:--------:|:--------------:|:--------:|:---------:|:-------------------:|:------------:|:--------------:|:--------:|:--------------:|:--------------:|
+| Datalab API               | **90.4** |    **90.2**    |   90.7   | **54.6**  |        91.6         |     83.7     |      92.3      | **99.9** | **86.7 ± 0.8** | Own benchmarks |
+| Chandra 2                 |   86.9   |      89.1      | **92.1** |   51.1    |        91.4         |     82.1     |    **93.7**    | **99.9** |   85.8 ± 0.8   | Own benchmarks |
+| dots.ocr 1.5              |   85.9   |      85.5      |   90.7   |   48.2    |        94.0         |   **85.3**   |      81.6      |   99.7   |      83.9      | dots.ocr repo  |
+| Chandra 1                 |   82.2   |      80.3      |   88.0   |   50.4    |        90.8         |     81.2     |      92.3      | **99.9** |   83.1 ± 0.9   | Own benchmarks |
+| olmOCR 2                  |   83.0   |      82.3      |   84.9   |   47.7    |      **96.1**       |     83.7     |      81.9      |   99.6   |      82.4      |  olmocr repo   |
+| dots.ocr                  |   82.1   |      64.2      |   88.3   |   40.9    |        94.1         |     82.4     |      81.2      |   99.5   |   79.1 ± 1.0   | dots.ocr repo  |
+| olmOCR v0.3.0             |   78.6   |      79.9      |   72.9   |   43.9    |        95.1         |     77.3     |      81.2      |   98.9   |   78.5 ± 1.1   |  olmocr repo   |
+| Datalab Marker v1.10.0    |   83.8   |      69.7      |   74.8   |   32.3    |        86.6         |     79.4     |      85.7      |   99.6   |   76.5 ± 1.0   | Own benchmarks |
+| Deepseek OCR              |   75.2   |      72.3      |   79.7   |   33.3    |      **96.1**       |     66.7     |      80.1      |   99.7   |   75.4 ± 1.0   | Own benchmarks |
+| Mistral OCR API           |   77.2   |      67.5      |   60.6   |   29.3    |        93.6         |     71.3     |      77.1      |   99.4   |   72.0 ± 1.1   |  olmocr repo   |
+| GPT-4o (Anchored)         |   53.5   |      74.5      |   70.0   |   40.7    |        93.8         |     69.3     |      60.6      |   96.8   |   69.9 ± 1.1   |  olmocr repo   |
+| Qwen 3 VL 8B              |   70.2   |      75.1      |   45.6   |   37.5    |        89.1         |     62.1     |      43.0      |   94.3   |   64.6 ± 1.1   | Own benchmarks |
+| Gemini Flash 2 (Anchored) |   54.5   |      56.1      |   72.1   |   34.2    |        64.7         |     61.5     |      71.5      |   95.6   |   63.8 ± 1.2   |  olmocr repo   |
 
 
 # Multilingual benchmark table
