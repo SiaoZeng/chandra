@@ -10,12 +10,27 @@
   <a href="https://www.datalab.to/pricing"><img src="https://img.shields.io/badge/Model%20License-OpenRAIL--M-blue.svg" alt="Model License"></a>
   <a href="https://discord.gg/KuZwXNGnfH"><img src="https://img.shields.io/badge/Discord-Join%20us-5865F2?logo=discord&logoColor=white" alt="Discord"></a>
 </p>
+<p align="center">
+  <a href="https://www.datalab.to"><img src="https://img.shields.io/badge/Homepage-datalab.to-blue" alt="Homepage"></a>
+  <a href="https://documentation.datalab.to"><img src="https://img.shields.io/badge/Docs-Read%20the%20docs-blue" alt="Docs"></a>
+  <a href="https://www.datalab.to/playground"><img src="https://img.shields.io/badge/Playground-Try%20it-orange" alt="Public Playground"></a>
+</p>
 
 <hr/>
 
 # Chandra OCR 2
 
 Chandra OCR 2 is a state of the art OCR model that converts images and PDFs into structured HTML/Markdown/JSON while preserving layout information.
+
+## Try Chandra on Datalab
+
+Our managed platform runs an improved Chandra with higher accuracy than the open weights, zero data retention by default, SOC 2 Type 2, and custom BAAs.
+
+If you have high volume workloads, we offer a batch processing service that has processed 200M+ pages per week — we manage the infrastructure so your workloads finish on time.
+
+Get started with **$5 in free credits** — [sign up](https://www.datalab.to/?utm_source=gh-chandra) — takes under 30 seconds — or try Chandra in our [public playground](https://www.datalab.to/playground?utm_source=gh-chandra).
+
+Commercial self-hosting requires a license — see [Commercial usage](#commercial-usage). For on-prem licensing, [contact us](https://www.datalab.to/contact?utm_source=gh-chandra-onprem).
 
 ## News
 
@@ -34,11 +49,6 @@ Chandra OCR 2 is a state of the art OCR model that converts images and PDFs into
 - Two inference modes: local (HuggingFace) and remote (vLLM server)
 
 <img src="assets/examples/math/handwritten_math.png" width="600px"/>
-
-## Hosted API
-
-- We have a hosted API for Chandra [here](https://www.datalab.to/), which is more accurate and faster.
-- There is a free playground [here](https://www.datalab.to/playground) if you want to try Chandra without installing.
 
 ## Quickstart
 
